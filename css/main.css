@@ -1,0 +1,165 @@
+body {
+  font: 300 14px 'Roboto Slab', serif;
+  color: #333; }
+
+.main_title {
+  color: #054e00;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 40px "Roboto Slab", Arial, sans-serif; }
+
+header .top {
+  background: #f1ffc7;
+  padding: 8px 0 5px; }
+  header .top .address {
+    position: relative;
+    padding-left: 25px; }
+    header .top .address:before {
+      content: '';
+      width: 16px;
+      height: 22px;
+      position: absolute;
+      left: 0;
+      top: -2px;
+      background: url("../img/metka.png") no-repeat; }
+    header .top .address .border {
+      width: 1px;
+      height: 33px;
+      position: absolute;
+      right: 0;
+      top: 2px;
+      background: #054e00; }
+    header .top .address div {
+      margin-bottom: 2px;
+      color: #054e00; }
+  header .top .callback {
+    position: relative;
+    padding-left: 27px; }
+    header .top .callback:before {
+      content: '';
+      width: 19px;
+      height: 19px;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      background: url("../img/phone.png") no-repeat; }
+    header .top .callback .border {
+      width: 1px;
+      height: 33px;
+      position: absolute;
+      right: 0;
+      top: 2px;
+      background: #054e00; }
+    header .top .callback a {
+      color: #054e00;
+      text-decoration: none;
+      font: 400 16px 'Roboto Slab', serif; }
+      header .top .callback a:hover {
+        text-decoration: underline; }
+    header .top .callback a.tel {
+      font: 400 20px 'Open Sans', serif;
+      color: #333; }
+  header .top .callback_email {
+    position: relative;
+    padding-left: 27px;
+    margin-top: 8px; }
+    header .top .callback_email:before {
+      content: '';
+      width: 19px;
+      height: 14px;
+      position: absolute;
+      left: 0;
+      top: 5px;
+      background: url("../img/main.png") no-repeat; }
+    header .top .callback_email .email {
+      font: 400 16px 'Roboto Slab', serif;
+      color: #054e00;
+      text-decoration: underline; }
+      header .top .callback_email .email:hover {
+        text-decoration: none; }
+  header .top .search_block form {
+    position: relative; }
+  header .top .search_block input[type="text"] {
+    outline: none;
+    border: 1px solid #054e00;
+    padding: 8px;
+    color: #a9b38c;
+    font: 400 14px 'Roboto Slab', serif;
+    width: 100%;
+    background: transparent; }
+  header .top .search_block input[type="submit"] {
+    font-size: 0.0001em;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    border: none;
+    outline: none;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: url("../img/search-btn.png") no-repeat; }
+header .bottom {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 60px;
+  background-image: -moz-linear-gradient(90deg, #eaeef0 0%, white 100%);
+  background-image: -webkit-linear-gradient(90deg, #eaeef0 0%, white 100%);
+  background-image: -ms-linear-gradient(90deg, #eaeef0 0%, white 100%);
+  box-shadow: 0px 1px 4px 0px rgba(5, 5, 6, 0.3); }
+  header .bottom .navbar {
+    border: none; }
+    header .bottom .navbar .navbar-collapse {
+      padding: 0; }
+    header .bottom .navbar ul li.active_button, header .bottom .navbar ul li:hover {
+      background-image: -moz-linear-gradient(90deg, #10942e 0%, #b5df39 100%);
+      background-image: -webkit-linear-gradient(90deg, #10942e 0%, #b5df39 100%);
+      background-image: -ms-linear-gradient(90deg, #10942e 0%, #b5df39 100%); }
+      header .bottom .navbar ul li.active_button a, header .bottom .navbar ul li:hover a {
+        color: #fff; }
+        header .bottom .navbar ul li.active_button a:hover, header .bottom .navbar ul li:hover a:hover {
+          text-decoration: none;
+          background: transparent; }
+    header .bottom .navbar ul li a {
+      height: 60px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 0px 40px;
+      color: #333;
+      text-decoration: none;
+      background: transparent;
+      font: 300 18px/55px 'Roboto Slab', serif; }
+
+.slider_block {
+  height: 560px;
+  background: url("../img/slider-bg.jpg") no-repeat; }
+
+.our_service_block {
+  background: url("../img/plus-bg.png") no-repeat center;
+  margin-top: 73px; }
+  .our_service_block .main_title {
+    margin-bottom: -10px; }
+  .our_service_block .item {
+    margin-top: 50px; }
+    .our_service_block .item .img_wrapper img {
+      border: 4px solid white;
+      background-color: #1cb243;
+      box-shadow: 0px 0px 3px 0px rgba(5, 5, 6, 0.35); }
+    .our_service_block .item .title {
+      text-align: center;
+      margin-top: 20px; }
+      .our_service_block .item .title a {
+        font: 400 18px "Open Sans";
+        color: #333; }
+        .our_service_block .item .title a:hover {
+          color: #054e00;
+          text-decoration: underline; }
+
+.our_advantage_block {
+  margin-top: 74px;
+  background: #eff7ec url("../img/bg-advantage.png") no-repeat center;
+  padding: 80px 0; }
+
+/*# sourceMappingURL=main.css.map */

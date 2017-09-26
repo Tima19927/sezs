@@ -1,0 +1,241 @@
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Roboto Slab', serif;
+//font-family: 'Oswald', sans-serif;
+
+@import "variable";
+
+
+body {
+  font: 300 14px 'Roboto Slab', serif;
+  color: $text_color;
+}
+
+.main_title {
+  color: $green_light;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 40px "Roboto Slab", Arial, sans-serif;
+
+}
+
+
+header {
+  .top{
+    background: $header_top;
+    padding: 8px 0 5px;
+    .address {
+      position: relative;
+      padding-left: 25px;
+      &:before {
+        content: '';
+        width:16px;
+        height:22px;
+        position: absolute;
+        left: 0;
+        top:-2px;
+        background: url(  $path_img + 'metka.png') no-repeat;
+      }
+      .border{
+        width:1px;
+        height:33px;
+        position: absolute;
+        right: 0;
+        top:2px;
+        background: $green_light;
+      }
+      div{
+        margin-bottom: 2px;
+        color: $green_light;
+      }
+
+    }
+    .callback {
+      position: relative;
+      padding-left: 27px;
+      &:before {
+        content: '';
+        width:19px;
+        height:19px;
+        position: absolute;
+        left: 0;
+        top:5px;
+        background: url( $path_img +'phone.png') no-repeat;
+      }
+      .border{
+        width:1px;
+        height:33px;
+        position: absolute;
+        right: 0;
+        top:2px;
+        background: $green_light;
+      }
+      a{
+        color:$green_light;
+        text-decoration: none;
+        font: 400 16px 'Roboto Slab', serif;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+      a.tel{
+        font: 400 20px 'Open Sans', serif;
+        color: $text_color;
+      }
+
+    }
+
+    .callback_email {
+      position: relative;
+      padding-left: 27px;
+      margin-top: 8px;
+      &:before {
+        content: '';
+        width:19px;
+        height:14px;
+        position: absolute;
+        left: 0;
+        top:5px;
+        background: url( $path_img + 'main.png') no-repeat;
+      }
+      .email{
+        font: 400 16px 'Roboto Slab', serif;
+        color: $green_light;
+        text-decoration: underline;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .search_block{
+      form{
+        position: relative;
+      }
+
+      input[type="text"]{
+        outline: none;
+        border: 1px solid $green_light;
+        padding: 8px;
+        color: $grey;
+        font: 400 14px 'Roboto Slab', serif;
+        width:100%;
+        background: transparent;
+      }
+      input[type="submit"] {
+        font-size: 0.0001em;
+        position: absolute;
+        top: 11px;
+        right: 10px;
+        border: none;
+        outline: none;
+        height:15px;
+        width:15px;
+        display: inline-block;
+        background: url(  $path_img + "search-btn.png") no-repeat;
+      }
+    }
+
+  }
+  .bottom {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 60px;
+      background-image: -moz-linear-gradient(90deg, rgb(234, 238, 240) 0%, rgb(255, 255, 255) 100%);
+      background-image: -webkit-linear-gradient(90deg, rgb(234, 238, 240) 0%, rgb(255, 255, 255) 100%);
+      background-image: -ms-linear-gradient(90deg, rgb(234, 238, 240) 0%, rgb(255, 255, 255) 100%);
+      box-shadow: 0px 1px 4px 0px rgba(5, 5, 6, 0.3);
+      .navbar {
+        border: none;
+        .navbar-collapse{
+          padding: 0;
+        }
+        ul{
+          li{
+            &.active_button, &:hover {
+              background-image: -moz-linear-gradient( 90deg, rgb(16,148,46) 0%, rgb(181,223,57) 100%);
+              background-image: -webkit-linear-gradient( 90deg, rgb(16,148,46) 0%, rgb(181,223,57) 100%);
+              background-image: -ms-linear-gradient( 90deg, rgb(16,148,46) 0%, rgb(181,223,57) 100%);
+              a{
+                color: $white;
+                &:hover{
+                  text-decoration: none;
+                  background: transparent;
+
+                }
+              }
+            }
+            a{
+              height: 60px;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              display: inline-block;
+              padding: 0px 40px;
+              color: $text_color;
+              text-decoration: none;
+              background: transparent;
+              font: 300 18px/55px 'Roboto Slab', serif;
+            }
+          }
+        }
+      }
+
+
+  }
+}
+
+
+//slider_block
+.slider_block{
+  height: 560px;
+  background: url($path_img + "slider-bg.jpg") no-repeat;
+}
+//slider_block
+
+
+
+//our_service_block
+
+.our_service_block{ 
+  background: url("../img/plus-bg.png") no-repeat center;
+  margin-top: 73px;
+  .main_title {
+    margin-bottom: -10px;
+  }
+  .item {
+  margin-top: 50px;
+  .img_wrapper {
+    img{
+      border:4px solid rgb(255, 255, 255);
+      background-color: rgb(28, 178, 67);
+      box-shadow: 0px 0px 3px 0px rgba(5, 5, 6, 0.35);
+    }
+  }
+  .title{
+    text-align: center;
+    margin-top: 20px;
+    a{
+      font: 400 18px "Open Sans";
+      color: $text_color;
+      &:hover {
+        color: $green_light;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+}
+
+
+//our_service_block
+
+//our_advantage_block
+.our_advantage_block{
+  margin-top: 74px;
+  background: rgb(239, 247, 236) url("../img/bg-advantage.png") no-repeat center;
+
+    padding: 80px 0;
+}
+//our_advantage_block

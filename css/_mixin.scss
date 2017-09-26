@@ -1,0 +1,14 @@
+@mixin  box-shadow() {
+  //-webkit-box-shadow: inset hoff voff blur color;
+  //-moz-box-shadow: inset hoff voff blur color;
+  //box-shadow: inset hoff voff blur color;
+}
+
+
+@mixin  box-sizing() {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
