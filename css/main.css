@@ -8,6 +8,21 @@ body {
   text-transform: uppercase;
   font: bold 40px "Roboto Slab", Arial, sans-serif; }
 
+.padding_none {
+  background: #ece9e1;
+  padding: 1px !important; }
+
+#scroll_top_btn {
+  background: url("../img/scroll-top.png") no-repeat;
+  height: 78px;
+  width: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 250px;
+  opacity: 0.8; }
+  #scroll_top_btn:hover {
+    opacity: 1; }
+
 header .top {
   background: #f1ffc7;
   padding: 8px 0 5px; }
@@ -161,5 +176,355 @@ header .bottom {
   margin-top: 74px;
   background: #eff7ec url("../img/bg-advantage.png") no-repeat center;
   padding: 80px 0; }
+  .our_advantage_block .main_title {
+    margin-bottom: -11px; }
+  .our_advantage_block .item_bg {
+    margin-top: 50px;
+    padding: 3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100 */
+    background: #0e942e;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0e942e, #b5df39);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e942e, #b5df39);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, #0e942e, #b5df39);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##0e942e', endColorstr='#b5df39', GradientType=1);
+    /* IE6-9 */ }
+  .our_advantage_block .item {
+    padding: 22px 0;
+    background: #fff;
+    min-height: 240px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .our_advantage_block .item .bg_icon {
+      width: 74px;
+      height: 74px;
+      display: block;
+      margin: 0 auto; }
+    .our_advantage_block .item .advg_1 {
+      background: url("../img/advantage-icon-1.png") no-repeat; }
+    .our_advantage_block .item .advg_2 {
+      background: url("../img/advantage-icon-2.png") no-repeat; }
+    .our_advantage_block .item .advg_3 {
+      background: url("../img/advantage-icon-3.png") no-repeat; }
+    .our_advantage_block .item .advg_4 {
+      background: url("../img/advantage-icon-4.png") no-repeat; }
+    .our_advantage_block .item .advg_5 {
+      background: url("../img/advantage-icon-5.png") no-repeat; }
+    .our_advantage_block .item .advg_6 {
+      background: url("../img/advantage-icon-6.png") no-repeat; }
+    .our_advantage_block .item .advg_7 {
+      background: url("../img/advantage-icon-7.png") no-repeat; }
+    .our_advantage_block .item .title {
+      width: 90%;
+      margin: 20px auto 0;
+      text-align: center;
+      font: lighter 18px "Roboto Slab", Arial, sans-serif; }
+      .our_advantage_block .item .title a {
+        color: #444444;
+        font: lighter 18px "Roboto Slab", Arial, sans-serif; }
+        .our_advantage_block .item .title a:hover {
+          text-decoration: none; }
+      .our_advantage_block .item .title strong {
+        font-weight: bold; }
+
+.service_key_block {
+  padding: 65px 0 245px;
+  background: url("../img/plus-bg-key.png") no-repeat center center; }
+  .service_key_block .main_desc {
+    margin-top: -10px;
+    font: 18px/2.778 "Roboto Slab";
+    color: #414a55;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px; }
+  .service_key_block .item {
+    width: 254px;
+    height: 178px;
+    float: left; }
+  .service_key_block .item-1 {
+    background: url("../img/arrow-advantage.png") no-repeat; }
+  .service_key_block .item-2 {
+    background: url("../img/arrow-advantage-2.png") no-repeat; }
+  .service_key_block .item-3 {
+    background: url("../img/arrow-advantage-3.png") no-repeat; }
+  .service_key_block .item-4 {
+    background: url("../img/arrow-advantage-4.png") no-repeat; }
+  .service_key_block .item-5 {
+    background: url("../img/arrow-advantage-5.png") no-repeat; }
+
+.operation_block {
+  position: relative;
+  padding: 206px 0;
+  background: url("../img/product-bg.jpg") no-repeat center/cover; }
+  .operation_block .callback_wrapper {
+    position: absolute;
+    top: -300px;
+    padding: 3px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100 */
+    background: #0e942e;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0e942e, #b5df39);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e942e, #b5df39);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, #0e942e, #b5df39);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##0e942e', endColorstr='#b5df39', GradientType=1);
+    /* IE6-9 */ }
+  .operation_block .callback_wrapper_bottom {
+    position: absolute;
+    bottom: -318px;
+    padding: 3px;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100 */
+    background: #0e942e;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0e942e, #b5df39);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e942e, #b5df39);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, #0e942e, #b5df39);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##0e942e', endColorstr='#b5df39', GradientType=1);
+    /* IE6-9 */ }
+  .operation_block .callback {
+    text-align: center;
+    padding: 25px 35px 35px;
+    background: #eff7ec; }
+    .operation_block .callback .title {
+      font: 400 40px/1.25 "Roboto Slab";
+      color: #444444;
+      text-transform: uppercase;
+      text-align: center; }
+    .operation_block .callback .callback_form a {
+      text-decoration: none;
+      font: 20px/42px "Roboto Slab";
+      color: #333333;
+      text-transform: uppercase;
+      text-align: center;
+      background-color: #b4df39;
+      width: 271px;
+      height: 41px;
+      display: block;
+      margin: 29px auto 0; }
+      .operation_block .callback .callback_form a:hover {
+        text-decoration: none; }
+  .operation_block .main_title {
+    margin-bottom: 50px; }
+  .operation_block .img_wrapper {
+    position: relative; }
+    .operation_block .img_wrapper:hover {
+      cursor: pointer; }
+      .operation_block .img_wrapper:hover .desc {
+        display: block; }
+    .operation_block .img_wrapper .bg_product {
+      height: 189px;
+      width: 100%;
+      background: url("../img/product-1.jpg") no-repeat center/cover; }
+    .operation_block .img_wrapper .desc {
+      -webkit-transition: background 0.3s;
+      -moz-transition: background 0.3s;
+      -ms-transition: background 0.3s;
+      -o-transition: background 0.3s;
+      transition: background 0.3s;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: none;
+      padding: 30px 10px 0;
+      background: rgba(17, 145, 47, 0.9);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 322;
+      font: 13px/1.538 "Roboto Slab";
+      color: white;
+      text-align: left; }
+
+.pay_block {
+  padding: 200px 0; }
+  .pay_block .BG_PLUS {
+    background: url("../img/plus-bg-dost.png") no-repeat; }
+  .pay_block .item {
+    background: #fff;
+    margin-top: 40px;
+    padding: 55px 0 55px;
+    border: 2px solid #10942e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    min-height: 250px; }
+    .pay_block .item .title {
+      font: bold 80px/0.625 "Open Sans";
+      color: #b4df39;
+      text-transform: uppercase;
+      text-align: center; }
+    .pay_block .item .desc {
+      margin-top: 30px;
+      font: 20px/1.5 "Roboto Slab";
+      color: #444444;
+      text-transform: uppercase;
+      text-align: center; }
+
+.project_slider_block {
+  padding: 67px 0 80px;
+  background: url("../img/project-bg.jpg") no-repeat center/cover; }
+  .project_slider_block .slides {
+    margin-top: 40px; }
+  .project_slider_block .single-item .slide {
+    box-shadow: 0 0 3px 0 rgba(5, 5, 6, 0.35);
+    border: 4px solid white;
+    position: relative;
+    margin: 0 15px; }
+    .project_slider_block .single-item .slide img {
+      width: 100%; }
+    .project_slider_block .single-item .slide .title {
+      position: absolute;
+      bottom: 25px;
+      background-color: rgba(28, 178, 67, 0.902);
+      width: 100%; }
+      .project_slider_block .single-item .slide .title a {
+        display: block;
+        padding: 10px;
+        font: 16px/20px "Roboto Slab";
+        color: white;
+        text-transform: uppercase; }
+        .project_slider_block .single-item .slide .title a:hover {
+          text-decoration: underline; }
+
+.reviews_block .container {
+  background: url("../img/plus-bg-reviews.png") no-repeat center/cover; }
+.reviews_block .slides {
+  padding: 0 30px;
+  background: #eff7ec; }
+.reviews_block .all_reviews {
+  background-color: #b4df39;
+  width: 271px;
+  height: 41px;
+  margin: 0 auto; }
+  .reviews_block .all_reviews a {
+    font: 20px/2.5 "Roboto Slab";
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center; }
+    .reviews_block .all_reviews a:hover {
+      text-decoration: none; }
+
+.information_block {
+  background: url("../img/actual-bg.jpg") no-repeat center/cover;
+  padding: 67px 0 80px; }
+  .information_block .main_title {
+    margin-bottom: -10px; }
+  .information_block .info_item {
+    margin-top: 50px; }
+    .information_block .info_item .img_wrapper {
+      width: 40%;
+      float: left; }
+      .information_block .info_item .img_wrapper img {
+        box-shadow: 0 0 3px 0 rgba(5, 5, 6, 0.35);
+        width: 200px;
+        border: 4px solid white; }
+    .information_block .info_item .info_content {
+      float: left;
+      width: 58%; }
+      .information_block .info_item .info_content div {
+        float: left; }
+      .information_block .info_item .info_content .title a {
+        font: 16px/ 1.25 "Roboto Slab";
+        color: #1cb243;
+        text-align: left;
+        text-decoration: underline; }
+        .information_block .info_item .info_content .title a:hover {
+          text-decoration: none; }
+      .information_block .info_item .info_content .desc {
+        font: 16px/1.25 "Roboto Slab";
+        color: #444444;
+        margin-top: 25px; }
+
+footer .top {
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #333333; }
+  footer .top ul {
+    list-style: none; }
+    footer .top ul li {
+      color: #c9c9c9;
+      float: left;
+      line-height: 47px;
+      padding-right: 8px; }
+      footer .top ul li a {
+        font: 16px/1.25 "Roboto Slab";
+        color: #c9c9c9;
+        padding-right: 8px; }
+        footer .top ul li a:hover {
+          color: #fff; }
+  footer .top .search_block {
+    margin-top: 12px; }
+    footer .top .search_block form {
+      position: relative; }
+    footer .top .search_block input[type="text"] {
+      outline: none;
+      border: 1px solid #999fa6;
+      padding: 1px 8px;
+      color: #999fa6;
+      font: 400 14px 'Roboto Slab', serif;
+      width: 100%;
+      background: transparent; }
+    footer .top .search_block input[type="submit"] {
+      font-size: 0.0001em;
+      position: absolute;
+      top: 4px;
+      right: 10px;
+      border: none;
+      outline: none;
+      height: 15px;
+      width: 15px;
+      display: inline-block;
+      background: url("../img/search-btn-footer.png") no-repeat; }
+footer .bottom {
+  padding-top: 21px; }
+  footer .bottom .logo_title {
+    font: bold 18px/1.8 "Roboto Slab";
+    color: #1cb243;
+    text-transform: uppercase; }
+  footer .bottom .logo_block {
+    margin-top: 10px;
+    background: url("../img/footer-logo.png") no-repeat;
+    width: 122px;
+    height: 67px; }
+  footer .bottom ul li a {
+    font: 16px/1.875 "Roboto Slab";
+    color: #444444; }
+    footer .bottom ul li a:hover {
+      color: #1cb243; }
+  footer .bottom .contact_data {
+    text-align: center; }
+    footer .bottom .contact_data div {
+      width: 185px;
+      text-align: left;
+      margin: 0 auto; }
+    footer .bottom .contact_data .email a {
+      font: 16px/1.875 "Roboto Slab";
+      color: #1cb243; }
+    footer .bottom .contact_data .tel a {
+      font: 20px/1.875 "Roboto Slab";
+      color: #444444; }
+  footer .bottom .callback {
+    font: 16px/1.313 "Roboto Slab";
+    color: #054e00;
+    text-align: left; }
+    footer .bottom .callback a {
+      font: 16px/1.313 "Roboto Slab";
+      color: #054e00;
+      text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
